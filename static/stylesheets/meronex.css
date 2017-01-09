@@ -1,0 +1,43 @@
+.meronex-logo{
+    height:60px;
+    float: left;
+    margin-left: 20px;
+
+}
+
+@media only screen and (max-width: 479px) {
+    .meronex-logo{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+
+
+
+.button-menu{
+    float: right !important;
+    width: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+
+
+.header{
+    width: 100%;
+}
+
+.title{
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 25px;
+    margin-left: 125px;
+}
+
+.bitbucket{
+    height: 50px;
+    float: right;
+    margin-top: -34px;
+}
