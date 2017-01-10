@@ -12,6 +12,16 @@
     }
 }
 
+.translation{
+    float: right;
+    margin-right: 40px;
+    margin-top: -25px;
+}
+@media only screen and (max-width: 479px){
+    .translation{
+        display: none;
+    }
+}
 
 
 .button-menu{
@@ -40,4 +50,10 @@
     height: 50px;
     float: right;
     margin-top: -34px;
+}
+
+@media only screen and (max-width: 479px) {
+    .bitbucket{
+        display: none;
+    }
 }

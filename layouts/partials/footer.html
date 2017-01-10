@@ -1,6 +1,8 @@
 {{ if .IsPage }}
 {{ if .Prev | or .Next }}
 <nav class="pagination" aria-label="Footer">
+
+
   <div class="previous">
   {{ if .Prev }}
       <a href="{{ .Prev.Permalink }}" title="{{ .Prev.Title }}">
@@ -20,6 +22,7 @@
       </a>
   {{ end }}
   </div>
+
 
   <div class="next">
   {{ if .Next }}
