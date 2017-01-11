@@ -14,12 +14,12 @@
 
 .translation{
     float: right;
-    margin-right: 40px;
-    margin-top: -25px;
+    /*margin-right: 40px;*/
+    margin-top: 0px;
 }
 @media only screen and (max-width: 479px){
     .translation{
-        display: none;
+        /*display: none;*/
     }
 }
 
@@ -56,4 +56,17 @@
     .bitbucket{
         display: none;
     }
+}
+
+.footer{
+    text-align: center;
+    display: inline-block;
+
+}
+.footer-span{
+    color:#969696;
+    text-align: center;
+}
+.copy-right-text{
+    display: inline-block;
 }
